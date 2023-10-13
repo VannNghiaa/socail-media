@@ -1,9 +1,12 @@
 import "./App.css"
+import Newfeed from "./pages/newfeed/newfeed";
 
 function App() {
     return (
-       <div>
-        
+       <div className="container">
+            <Newfeed />
+            <Newfeed />
+            <Newfeed />
        </div>
     )
 }
