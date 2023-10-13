@@ -1,0 +1,17 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+
+.icon-item {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.home-icon {
+    font-size: 1.7rem;
+}

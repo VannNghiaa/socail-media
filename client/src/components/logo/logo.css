@@ -1,0 +1,11 @@
+.logo {
+    width: max-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.logo-img {
+    cursor: pointer;
+}

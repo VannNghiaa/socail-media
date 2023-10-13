@@ -1,11 +1,16 @@
-import Logo from "../logo/logo.jsx"
+import Logo from "../logo/logo";
+import Menu from "../menu/menu";
+import Search from "../search/search";
+import "./navbar.css";
 
 function Navbar() {
     return (
-        <nav className="">
-           <Logo />
+        <nav className="nav">
+            <Logo />
+            <Search />
+            <Menu />
         </nav>
     )
 }
 
-export default Navbar
+export default Navbar;
