@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "socail-media", "socail-media\socail-media.csproj", "{7B0067E9-BF31-4098-82B4-92591995D232}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "social-media", "social-media\social-media.csproj", "{7B0067E9-BF31-4098-82B4-92591995D232}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
