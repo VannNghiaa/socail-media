@@ -1,17 +1,16 @@
 # socail-media
 project: mạng xã hội (instagram)
 
-|-user:
-|   |
-|   |-- tạo/xóa/sửa tài khoản
-|   |-- tạo/xóa/sửa bài viết
-|   |-- follow/unfollow user khác
-|   |-- like/unlike bài viết 
-|   |-- share bài viết
-|   |-- comment bài viết  
-|   |-- xem newsfeed 
-|   |-- khám phá bài viết
-|   |-- nhắn tin
+-user:
+ * tạo/xóa/sửa tài khoản
+ * tạo/xóa/sửa bài viết
+ * follow/unfollow user khác
+ * like/unlike bài viết 
+ * share bài viết
+ * comment bài viết  
+ * xem newsfeed 
+ * khám phá bài viết
+ * nhắn tin
 
 Entity
 __________________________________________________
