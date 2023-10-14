@@ -1,5 +1,4 @@
 import "./menu.css";
-import { BiHomeAlt } from "react-icons/bi";
 import { FaRegPaperPlane } from "react-icons/fa6";
 import { FaRegCompass } from "react-icons/fa6";
 import { FaRegSquarePlus } from "react-icons/fa6";

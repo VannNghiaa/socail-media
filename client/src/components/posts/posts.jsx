@@ -1,15 +1,17 @@
 import Avatar from "../avatar/avatar";
 import "./posts.css";
-import { FaRegHeart } from "react-icons/fa6";
-import { FaRegPaperPlane } from "react-icons/fa6";
-import { FaRegCompass } from "react-icons/fa6";
+import { CiHeart } from "react-icons/ci";
+import { CiChat1 } from "react-icons/ci";
+import { CiLocationArrow1 } from "react-icons/ci";
+import { CiBookmark } from "react-icons/ci";
+
 
 
 function Posts() {
     return (
         <div className="posts">
             <div className="posts-header">
-                <Avatar /> 
+                <Avatar />
                 <span>copengokngek_98</span>
             </div>
             <div className="posts-body">
@@ -19,27 +21,32 @@ function Posts() {
                 <div className="footer-action">
                     <div className="like action-item">
                         <span className="like-icon icon-item">
-                            <FaRegHeart />
+                            <CiHeart />
                         </span>
                     </div>
 
                     <div className="comment action-item">
                         <span className="comment-icon icon-item">
-                            <FaRegCompass />
+                            <CiChat1 />
                         </span>
                     </div>
 
                     <div className="share action-item">
-                        <span className="share
-                        -icon icon-item">
-                            <FaRegPaperPlane />
+                        <span className="share-icon icon-item">
+                            <CiLocationArrow1 />
                         </span>
                     </div>
+                </div>
+
+                <div className="footer-bookmark">
+                    <span className="save-icon icon-item">
+                        <CiBookmark/>
+                    </span>
                 </div>
             </div>
 
         </div>
     )
-} 
+}
 
 export default Posts;
