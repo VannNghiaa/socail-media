@@ -1,12 +1,10 @@
 import "./App.css"
-import Newfeed from "./pages/newfeed/newfeed";
+import Newsfeed from "./pages/newsfeed/newsfeed.jsx";
 
 function App() {
     return (
        <div className="container">
-            <Newfeed />
-            <Newfeed />
-            <Newfeed />
+            <Newsfeed />
        </div>
     )
 }

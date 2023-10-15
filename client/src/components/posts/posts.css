@@ -1,5 +1,4 @@
 .posts {
-    margin-left: 30%;
     margin-top: 8px;
     width: fit-content;
     padding: 10px 0px;
@@ -10,12 +9,14 @@
 .posts-header {
     display: flex;
     flex-direction: row;
-    margin: 8px 0px;
+    margin: 8px 0;
+    /*align-content: center;*/
+    align-items: center;
 }
 
 .posts-header > span {
     margin-left: 10px;
-    margin-top: 8px;
+    /*margin-top: 8px;*/
 }
 
 .posts-body {
@@ -47,10 +48,3 @@
     margin: 10px 0px;
     justify-content: space-between;
 }
-
-/* .posts-body > img {
-    width: 400px;
-    height: 468px;
-    border-radius: 100px solid rgb(203, 202, 202);
-    background-color: yellow;
-} */
