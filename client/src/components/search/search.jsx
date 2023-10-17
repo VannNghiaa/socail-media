@@ -8,7 +8,7 @@ function Search() {
                 <span className="search-icon">
                     <FaSistrix />
                 </span>
-                <input className="search-input" type="text" placeholder="Search" />
+                <input className="search-input" type="text" placeholder="Tìm kiếm" />
             </div>
         </div>
     );
