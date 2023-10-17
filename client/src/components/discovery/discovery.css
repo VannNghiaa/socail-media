@@ -21,6 +21,8 @@ body {
 } */
 
 .layout {
+    /* height: 30%;
+    width: 80%; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:5px;
