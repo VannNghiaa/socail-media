@@ -53,7 +53,7 @@ button {
     box-sizing: content-box;
     margin: 10px 10px;
     margin-top: 20px;
-    border-radius: 30px;
+    border-radius: 6px;
     border: none;
     color: white;
 
@@ -69,7 +69,6 @@ button {
 .button-register {
     display: flex;
     margin-left: 20px;
-    /* background-color: red; */
 }
 
 .button-register > button {
@@ -83,10 +82,9 @@ button {
 }
 
 .login-text {
-    /* display: flex; */
     text-align: center;
-    /* display: block; */
     flex-direction: row;
+    color: #7F8C9E;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
 

@@ -1,5 +1,5 @@
 import Logo from "../../components/logo/logo";
-import "./login.css"
+import "./login.css";
 
 function Login() {
     return (
@@ -25,8 +25,6 @@ function Login() {
                 </div>
                 <div className="login-box">
                     <div className="button-register">
-                        {/* <span>Bạn chưa có tài khoản ư?</span>
-                        <br /> */}
                         <div className="text">Don't have an account?</div>
                         <button>Sign up</button>
                     </div>

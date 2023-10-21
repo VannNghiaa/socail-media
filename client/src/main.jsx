@@ -9,12 +9,17 @@ import Newsfeed from './pages/newsfeed/newsfeed';
 import Discovery from './pages/discovery/discovery';
 import Navbar from './components/navbar/navbar';
 import Login from './pages/login/login';
+import Register from './pages/register/register';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Newsfeed />,
+  },
+  {
+    path: "/register",
+    element: <Register/>
   },
   {
     path: "/login",
