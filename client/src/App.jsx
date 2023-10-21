@@ -1,12 +1,15 @@
 import "./App.css"
-import Newfeed from "./pages/newfeed/newfeed";
+import Discovery from "./pages/discovery/discovery";
+import Login from "./pages/login/login";
 
 function App() {
     return (
        <div className="container">
+            {/* <Newfeed />
             <Newfeed />
             <Newfeed />
-            <Newfeed />
+            <Discovery /> */}
+            <Login  />
        </div>
     )
 }

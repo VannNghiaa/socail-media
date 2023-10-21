@@ -20,13 +20,19 @@ body {
     height: 1000px;
 } */
 
+.container {
+    background-color: #fdfdfd;
+}
+
 .layout {
     /* height: 30%;
     width: 80%; */
     display: grid;
+    /* grid-template-columns: 300px 150px 300px; */
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px 300px;
     grid-gap:5px;
-    background-color: black;
+    background-color: #fdfdfd;
     grid-template-areas: 
     "h1 h2 h3"
     "h1 h4 h5"

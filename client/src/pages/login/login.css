@@ -1,0 +1,99 @@
+button {
+    cursor: pointer;
+}
+
+.login-page {
+    display: flex;
+    height: 100vh;
+    margin: 0 auto;
+    align-items: center;
+    /* background-color: red; */
+  
+}
+
+.login-animation {
+    height: 350px;
+}
+
+.login {
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    height: 350px;
+    width: 25%;
+}
+
+.login-logo {
+    align-items: center;
+    /* background-color: aqua; */
+    margin: 0 100px 0;
+    /* padding: 20px; */
+    margin-top: 30px;
+
+}
+
+.login-content {
+    /* background-color: blue; */
+    padding: 20px;
+}
+
+.login-input > input {
+    margin: 3px 10px;
+    font-size: small;
+    width: 85%;
+    padding: 13px;
+}
+
+.button-login > button {
+    height: 40px;
+    width: 95%;
+    /* width: 80%; */
+    background-color: #4CB5F9;
+    /* margin-left: 3%; */
+    font-size: medium;
+    box-sizing: content-box;
+    margin: 10px 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+
+}
+
+.login-box {
+    /* background-color: yellow; */
+    margin-top: 20px;
+    margin-left: 55px;
+    width: 65%;
+}
+
+.button-register {
+    display: flex;
+    margin-left: 20px;
+    /* background-color: red; */
+}
+
+.button-register > button {
+    display: flex;
+    border: none;
+    font-size: medium;
+    box-sizing: content-box;
+    color: #4CB5F9;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.login-text {
+    /* display: flex; */
+    text-align: center;
+    /* display: block; */
+    flex-direction: row;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+}
+
+.login-text > div {
+    display: flex;
+}
+
+

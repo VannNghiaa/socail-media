@@ -5,15 +5,18 @@ import { FaRegSquarePlus } from "react-icons/fa6";
 import { FaRegHeart } from "react-icons/fa6";
 import { PiHouseBold } from "react-icons/pi";
 import Avatar from "../avatar/avatar";
+import { Link } from "react-router-dom";
 
 
 function Menu() {
     return (
         <div className="menu">
             <div className="home menu-item">
-                <span className="home-icon icon-item">
-                    <PiHouseBold />
-                </span>
+                <Link to={`/`}>
+                    <span className="home-icon icon-item">
+                        <PiHouseBold />
+                    </span>
+                </Link>
             </div>
             <div className="message menu-item">
                 <span className="message-icon icon-item">
@@ -26,9 +29,11 @@ function Menu() {
                 </span>
             </div>
             <div className="discovery menu-item">
-                <span className="discovery-icon icon-item">
-                    <FaRegCompass />
-                </span>
+                <Link to={`/discovery`}>
+                    <span className="discovery-icon icon-item">
+                        <FaRegCompass />
+                    </span>
+                </Link>
             </div>
             <div className="notification menu-item">
                 <span className="notification-icon icon-item">
