@@ -1,0 +1,18 @@
+.chat-user {
+    display: flex;
+    border: hidden;
+    /* background-color: red; */
+    width: fit-content;
+    padding: 10px;
+    border-bottom: 1px solid rgb(203, 202, 202);
+}
+
+.name-chatuser {
+    margin: 0 10px;
+}
+
+.namestyle {
+    color: #000000;
+    font-size: large;
+
+}

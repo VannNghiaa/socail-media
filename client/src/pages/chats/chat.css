@@ -1,0 +1,22 @@
+.chat {
+    display: flex;
+}
+
+.chat-people {
+    background-color: red;
+    width: 100vh;
+}
+
+.chat-header {
+    display: flex;
+    padding: 36px 24px 12px;
+}
+
+.myid-style {
+    font-size:x-large ;
+    font-weight: bolder;
+}
+
+.chat-midcontent {
+    display: flex;
+}

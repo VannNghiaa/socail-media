@@ -11,7 +11,10 @@ function Register() {
                 <span>Sign up to see photos and videos from your friends.</span>
             </div>
             <div className="register-text1">
-                OR
+                {/* <div className="register-text3"></div>
+                <div className="register-text4">OR</div>
+                <div className="register-text5"></div> */}
+                or
             </div>
             <div className="register-content">
                 <div className="register-input">

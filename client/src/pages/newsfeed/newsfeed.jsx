@@ -9,6 +9,7 @@ function Newsfeed() {
             <Posts />
             <Posts />
             <Posts />
+            
         </>
     )
 }

@@ -8,6 +8,7 @@
 }
 
 .register-logo {
+    width: fit-content;
     align-items: center;
     padding: 30px;
     margin-left: 30px;
@@ -24,10 +25,31 @@
 }
 
 .register-text1 {
+    /* display: flex; */
+    /* align-items: center; */
     text-align: center;
+    text-transform: uppercase;
     color: #7F8C9E;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
+}
+
+.register-text3 {
+    /* border-bottom: 1px solid gray; */
+    flex-grow: 1;
+    background-color: gray;
+}
+
+.register-text4 {
+    /* display: flex; */
+    flex-grow: 0;
+    flex-direction: column;
+}
+
+.register-text5 {
+    /* border-top: 1px solid gray; */
+    flex-grow: 1;
+    background-color: gray;
 }
 
 .register-text2 {

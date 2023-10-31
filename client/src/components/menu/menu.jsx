@@ -1,8 +1,5 @@
 import "./menu.css";
-import { FaRegPaperPlane } from "react-icons/fa6";
-import { FaRegCompass } from "react-icons/fa6";
-import { FaRegSquarePlus } from "react-icons/fa6";
-import { FaRegHeart } from "react-icons/fa6";
+import { FaRegPaperPlane, FaRegSquarePlus, FaRegCompass, FaRegHeart } from "react-icons/fa6";
 import { PiHouseBold } from "react-icons/pi";
 import Avatar from "../avatar/avatar";
 import { Link } from "react-router-dom";
@@ -40,8 +37,9 @@ function Menu() {
                     <FaRegHeart />
                 </span>
             </div>
-
-            <Avatar />
+            <Link to={`/profile`}>
+                <Avatar width={35} height={35} />
+            </Link>
         </div>
     )
 }

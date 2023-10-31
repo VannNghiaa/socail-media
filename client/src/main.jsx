@@ -10,6 +10,9 @@ import Discovery from './pages/discovery/discovery';
 import Navbar from './components/navbar/navbar';
 import Login from './pages/login/login';
 import Register from './pages/register/register';
+import Profile from './pages/profile/profile';
+import ChatUser from './components/chat-people/chat-people';
+import Chat from './pages/chats/chat';
 
 
 const router = createBrowserRouter([
@@ -26,11 +29,16 @@ const router = createBrowserRouter([
     element: <Login />
   },
   {
+    path: "/profile",
+    element: <Profile/>
+  },
+  {
     path: "/discovery",
     element: <Discovery />
   },
   {
-    path: "/chat"
+    path: "/chat",
+    element: <Chat />
   }
 
 ]);

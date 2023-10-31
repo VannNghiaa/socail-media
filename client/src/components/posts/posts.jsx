@@ -11,7 +11,7 @@ function Posts() {
     return (
         <div className="posts">
             <div className="posts-header">
-                <Avatar />
+                <Avatar width={35} height={35} />
                 <span>copengokngek_98</span>
             </div>
             <div className="posts-body">
