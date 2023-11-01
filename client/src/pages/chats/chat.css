@@ -1,10 +1,13 @@
-.chat {
+.chat  {
     display: flex;
 }
 
 .chat-people {
-    background-color: red;
-    width: 100vh;
+    /* background-color: red; */
+    height: 92vh;
+    width: 65vh;
+    border-right: 1px solid rgb(203, 202, 202) ;
+    overflow-y: scroll;
 }
 
 .chat-header {
@@ -17,6 +20,73 @@
     font-weight: bolder;
 }
 
+
 .chat-midcontent {
     display: flex;
+    flex-direction: row;
+}
+
+.chat-title {
+    padding: 10px 24px 10px;
+}
+
+.title {
+    font-size:large ;
+    font-weight: bolder; 
+}
+
+.chat-request {
+    /* background-color: aqua; */
+    padding: 10px 24px 10px;
+    /* align-items: flex-end; */
+    margin-left: 52%;
+    /* justify-content: flex-end; */
+}
+
+.request {
+    /* justify-content: flex-end; */
+    /* align-items:end; */
+    border: hidden;
+    font-size:small;
+    font-weight: bolder; 
+    color: rgb(122,115,115);background-color: white;
+}
+
+.chat-user1 {
+    flex-direction: column;
+    background-color: yellow;
+    overflow-y: auto;
+
+}
+
+.chat-content-header {
+    background-color: red;
+    border-bottom: 1px solid rgb(203, 202, 202);
+    height: 10vh;
+    /* width: 90%; */
+
+}
+
+.chat-content-mid {
+    background-color: aqua;
+    height: 75vh;
+    width: 135vh;
+}
+
+.chat-content-footer {
+    background-color: blueviolet;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-input {
+    height: 40px;
+    width: 1000px;
+    border: 1px solid rgb(203, 202, 202);
+    border-radius: 20px;
+    text-align:left;
+    font-size: medium;
+    margin: 5px 10px 5px;
+    justify-content: center;
 }

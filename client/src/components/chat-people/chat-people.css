@@ -2,9 +2,10 @@
     display: flex;
     border: hidden;
     /* background-color: red; */
-    width: fit-content;
-    padding: 10px;
-    border-bottom: 1px solid rgb(203, 202, 202);
+    width: 91%;
+    padding: 10px 20px 10px;
+    cursor: pointer;
+    /* border-bottom: 1px solid rgb(203, 202, 202); */
 }
 
 .name-chatuser {
